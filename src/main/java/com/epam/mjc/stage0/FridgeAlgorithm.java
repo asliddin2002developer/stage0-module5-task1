@@ -12,6 +12,8 @@ public class FridgeAlgorithm {
      */
 
     public void fridgeAlgorithm(Fridge fridge) {
+        fridge.open();
         fridge.getMilk();
+        fridge.close();
     }
 }
